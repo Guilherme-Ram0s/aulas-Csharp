@@ -12,6 +12,36 @@ namespace aula2_helloWorld
 
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(textBox1.Text);
+            int num2 = Convert.ToInt32(textBox2.Text);
+            int resultado = num1 + num2;
+            textBox3.Text = resultado.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(textBox1.Text);
+            int num2 = Convert.ToInt32(textBox2.Text);
+            int resultado = num1 - num2;
+            textBox3.Text = resultado.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(textBox1.Text);
+            int num2 = Convert.ToInt32(textBox2.Text);
+            int resultado = num1 * num2;
+            textBox3.Text = resultado.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(textBox1.Text);
+            int num2 = Convert.ToInt32(textBox2.Text);
+            int resultado = num1 / num2;
+            textBox3.Text = resultado.ToString();
+        }
     }
 }
