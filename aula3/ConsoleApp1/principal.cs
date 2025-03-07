@@ -6,12 +6,16 @@
         {
 
             Produto teclado = new Produto("teclado", 59, 92.10);
-            Produto comida = new Produto("pizza", 10, 40);
+            Retangulo retangulo = new Retangulo();
+            retangulo.Altura = 90;
+            retangulo.Largura = 2;
 
-            Console.WriteLine(teclado.getDetailProduct());
-            Console.WriteLine(comida.getDetailProduct());
+            Console.WriteLine($"temos um retangulo a altura de {retangulo.Altura} e com a largura de {retangulo.Largura}");
 
-            Console.WriteLine(teclado.GetType());
+            Console.WriteLine(retangulo.Area());
+            Console.WriteLine(retangulo.Perimetro());
+
+
         }
     }
 }
