@@ -10,6 +10,8 @@
 
             Console.WriteLine(teclado.getDetailProduct());
             Console.WriteLine(comida.getDetailProduct());
+
+            Console.WriteLine(teclado.GetType());
         }
     }
 }
